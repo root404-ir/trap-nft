@@ -1,0 +1,74 @@
+#top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #FF3C00;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px;
+    box-shadow: 0 0 15px #FF3C00;
+    border-radius: 50%;
+}
+  
+#top-btn:hover {
+    background-color: #555;
+}
+@media screen and (max-width:1065px)
+{
+    #top-btn
+    {
+        margin: 300px;
+        margin-right: 700px;
+        margin-bottom: 20px;
+        bottom: 0;
+        display: none;
+    }
+}
+@media screen and (max-width:823px)
+{
+    #top-btn
+    {
+        margin-right: 600px;
+        margin-bottom: 20px;
+        padding: 1px;
+    }
+}
+@media screen and (max-width:688px)
+{
+    #top-btn
+    {
+        margin-right: 500px;
+        margin-bottom: 20px;
+        padding: 1px;
+    }
+}
+@media screen and (max-width:576px)
+{
+    #top-btn
+    {
+        margin-right: 400px;
+        margin-bottom: 20px;
+        padding: 1px;
+    }
+}
+@media screen and (max-width:488px)
+{
+    #top-btn
+    {
+        margin-right: 350px;
+        margin-bottom: 20px;
+        padding: 1px;
+    }
+}
+@media screen and (max-width:427px)
+{
+    #top-btn
+    {
+        display: none !important;
+    }
+}

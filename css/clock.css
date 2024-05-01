@@ -1,0 +1,10 @@
+#clockDisplay {
+    margin: 0 auto;
+    color: #ff1e00;
+    /*Textcolor*/ padding-top: 0;
+    font-size: 25px;
+    font-family: kalameh;
+    /*Textsize*/ text-align: center;
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
